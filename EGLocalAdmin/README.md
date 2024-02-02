@@ -21,6 +21,10 @@ Full documenation can be found [here](https://learn.microsoft.com/en-us/entra/id
 
 #### 3. Install application
 
+Download the application. [EG_LocalAdmin_Setup.msi](https://github.com/an0mal1976/Deployable/blob/main/EGLocalAdmin/EG_LocalAdmin_Setup.msi?raw=true "EG_LocalAdmin_Setup.msi")
+
+Install application via intune or other means with parameters below.
+
 msiexec /i EG_LocalAdmin_Setup.msi APPID={GUIDOFAPP} TENANTID={GUIDOFTENANT} APPURI={REDIRECTURI e.g. myapp://EGLocalAdmin}
 
 
